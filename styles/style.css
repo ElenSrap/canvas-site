@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0px 12px;
+    margin: auto;
+}
+
+
+/*~~~~~~~~ HEADER ~~~~~~~~*/
+
+.header-main {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+
+.header-main__inner {
+    display: flex;
+}
+
+
+/*~~~~~~~~ BANNER ~~~~~~~~*/
+
+.section-banner {
+    height: 100vh;
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+}
