@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: Quicksand-Bold;
 }
 
 .container {
@@ -76,21 +77,21 @@ html, body {
 
 .section-banner__info-title {
     color: #EEE;
-    font-family: Poppins, sans-serif;
     font-size: 40px;
     line-height: 1.4;
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin-bottom: 25px;
+    letter-spacing: -2px;
 }
 
 .section-banner__info-text {
-    color: #EEF;
-    opacity: .7;
+    color: #EEE;
+    opacity: 0.7;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
-    font-family: Lato, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 25px;
 }
 
@@ -155,7 +156,42 @@ html, body {
 }
 
 .section-services__inner{
-    padding: 60px 0;
+    padding: 66px 0;
+}
+.section-services__text{
+    font-weight: 300;
+    color: #777;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 30px;
+}
+.section-services__title{
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #333;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+.section-services-item__content-title{
+    font-size: 17px;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+.section-services-item__content-text{
+    color: #f0a540;
+    font-size: 14px;
+    font-family: "Quicksand-Light";
+    margin: 0px;
+    padding: 6px 0;
+}
+.section-services-item__content-link{
+    color: #f0a540;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
 }
 .section-services__items {
     display: flex;
@@ -165,15 +201,15 @@ html, body {
 
 .section-services__items-item {
     background-color: white;
-    max-width: 255px;
+    max-width: 300px;
     border-radius: 5px;
-}
-
-.section-services-item__image-link {
-    height: 100%;
+    overflow: hidden;
 }
 
 .section-services-item__image-link img {
-    width: 255px;
-    height: 223px;
+    width: 300px;
+    height: 262px;
+}
+.section-services-item__content{
+    padding: 24px;
 }
