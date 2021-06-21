@@ -675,22 +675,24 @@ html, body {
     text-align: center;
 }
 
+.section-help__items-item__content-line{
+    width: 0;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 46px auto;
+    transition: width ease 0.2s;
+}
+
 .section-help__items-item__content-text {
     display: block;
-    margin-top: 100px;
     font-size: 17px;
     font-weight: 500;
     font-family: 'Quicksand-Medium', sans-serif;
     text-align: center;
     color: #ffffff;
 }
-.section-help__items-item:hover .section-help__items-item__content-div{
-    position: absolute;
-    width: 40px;
-    height: 4px;
-    background: #ffffff;
-    border-radius: 8px;
-}
+
 .section-help__items-item {
     position: relative;
     width: 33.33%;
@@ -711,6 +713,10 @@ html, body {
 }
 .section-help__items-item:hover .section-help__items-item__opacity{
     opacity: 0.8;
+}
+
+.section-help__items-item:hover .section-help__items-item__content-line{
+   width: 40px;
 }
 .section-help__items-item:hover {
     transform: scale(1.05);
