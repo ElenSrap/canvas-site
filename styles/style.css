@@ -35,17 +35,15 @@ img {
 .header-logo {
     max-height: 114px;
 }
-
+.header-logo__link{
+    display: inline-block;
+}
 .nav-main__list {
     display: flex;
     list-style: none;
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-.nav-main__list-item {
-    height: 100%;
 }
 
 .nav-main__list-item-link {
@@ -282,10 +280,11 @@ img {
 
 .section-item__count {
     display: flex;
+    width: 100%;
 }
 
 .section__count-info.yellow {
-    margin-right: 68px;
+    width: 33.333%;
 }
 
 .section__count-info h2 {
@@ -313,7 +312,7 @@ img {
 }
 
 .section__count-info.blue {
-    margin-right: 116px;
+    width: 33.333%;
 }
 
 .section__count-info.blue h2 {
@@ -340,7 +339,6 @@ img {
     padding: 20px 27px 20px 20px;
     border: 0px;
     border-top: 1px solid #EEE;
-
 }
 
 .section-slider__image-link img {
