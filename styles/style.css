@@ -460,6 +460,7 @@ html, body {
     font-family: 'Quicksand-light', sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
