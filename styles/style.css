@@ -8,7 +8,7 @@ html, body {
     font-family: Quicksand-Bold;
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -125,7 +125,7 @@ img{
 .section-banner__buttons-plus {
     padding: 0 30px;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: 'Quicksand-Regular', sans-serif;
 }
 
 .section-banner__buttons-gift {
@@ -138,7 +138,7 @@ img{
 }
 
 .section-banner__text {
-    font-family: Lato, sans-serif;
+    font-family: 'Quicksand-Regular', sans-serif;
     font-style: italic;
     font-size: 14px;
     color: #EEE;
@@ -288,22 +288,28 @@ img{
     margin-right: 68px;
 }
 
-.section__count-info.yellow h2 {
+.section__count-info h2 {
     font-family: 'Quicksand-SemiBold', sans-serif;
     font-size: 28px;
-    color: #f0a540;
     font-weight: 600;
     margin: 0;
 }
 
-.section__count-info.yellow p {
+.section__count-info p {
     font-family: 'Quicksand-Regular', sans-serif;
     font-weight: 600;
-    color: #f0a540;
     font-size: 16px;
     margin: 0px;
     padding-top: 8px;
     letter-spacing: 1px;
+}
+
+.section__count-info.yellow h2 {
+    color: #f0a540;
+}
+
+.section__count-info.yellow p {
+    color: #f0a540;
 }
 
 .section__count-info.blue {
@@ -311,39 +317,19 @@ img{
 }
 
 .section__count-info.blue h2 {
-    font-family: 'Quicksand-SemiBold', sans-serif;
-    font-size: 28px;
     color: #22c1c3;
-    font-weight: 600;
-    margin: 0px;
 }
 
 .section__count-info.blue p {
-    font-family: 'Quicksand-Regular', sans-serif;
-    font-weight: 600;
     color: #22c1c3;
-    font-size: 16px;
-    margin: 0px;
-    padding-top: 8px;
-    letter-spacing: 1px;
 }
 
 .section__count-info.red h2 {
-    font-family: 'Quicksand-SemiBold', sans-serif;
-    font-size: 28px;
     color: #BD3F32;
-    font-weight: 600;
-    margin: 0px;
 }
 
 .section__count-info.red p {
-    font-family: 'Quicksand-Regular', sans-serif;
-    font-weight: 600;
     color: #BD3F32;
-    font-size: 16px;
-    margin: 0px;
-    padding-top: 8px;
-    letter-spacing: 1px;
 }
 
 .section-slider__item {
@@ -795,13 +781,12 @@ img{
 }
 
 .footer-main__top-item h4 {
-    margin: 0;
+    margin: 0 0 25px 0;
     color: #EEE;
     font-family: 'Quicksand-SemiBold', sans-serif;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-bottom: 25px;
 }
 
 .footer-main-item__nav {
