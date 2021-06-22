@@ -8,6 +8,11 @@ html, body {
     font-family: Quicksand-Bold;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .container {
     max-width: 1320px;
     padding: 0px 12px;
@@ -64,7 +69,7 @@ html, body {
 
 .section-banner {
     background-image: url("../images/hero-image.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -103,7 +108,7 @@ html, body {
 
 .section-banner__buttons-button.btn {
     background-color: #f0a540;
-    color: #fff;
+    color: #ffffff;
     padding: 9px 26px;
     border-radius: 3px;
     text-decoration: none;
@@ -177,25 +182,24 @@ html, body {
 
 .section-services__items {
     display: flex;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    margin: -24px 0 0 -24px;
 }
 
 .section-services__items-item {
+    width: 25%;
+    padding: 24px 0 0 24px;
+}
+
+.section-services__items-item-content {
     background-color: white;
-    max-width: 300px;
     border-radius: 5px;
     overflow: hidden;
     transition: transform .1s;
+    height: 100%;
 }
 
-.section-services-item__image-link img {
-    width: 300px;
-    height: 262px;
-}
-
-
-.section-services__items-item:hover {
+.section-services__items-item:hover .section-services__items-item-content {
     transform: scale(1.05);
     box-shadow: 0 1px 1px 0 rgba(10, 16, 34, .2);
 }
@@ -209,14 +213,14 @@ html, body {
     color: #333;
     line-height: 1.5;
     font-family: 'Quicksand', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 
 .section-services-item__content-text {
     color: #f0a540;
     font-size: 14px;
     font-family: 'Quicksand-Light', sans-serif;
-    margin: 0px;
+    margin: 0;
     padding: 6px 0;
 }
 
@@ -289,8 +293,7 @@ html, body {
     font-size: 28px;
     color: #f0a540;
     font-weight: 600;
-    margin: 0px;
-
+    margin: 0;
 }
 
 .section__count-info.yellow p {
@@ -665,7 +668,6 @@ html, body {
 .section-help__items-item.left {
     background-image: url('../Images/1 (4).jpg');
     margin: 0 12px;
-
 }
 
 .section-help__items-item.center {
@@ -809,7 +811,7 @@ html, body {
 
 .footer-main-item__nav-list {
     padding: 4px 0;
-    line-height: 22.5px;
+    line-height: 22px;
 }
 
 .footer-main-item__nav-list:before {
