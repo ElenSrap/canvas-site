@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand-Bold;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0px 12px;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*----------- HEADER STYLE----------*/
+
+.header-main{
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 104px;
+}
+.header-main__inner{
+    overflow: hidden;
+}
+.header-main__logo{
+    display: inline-block;
+    float: left;
+}
+.header-main__logo-link{
+    display: inline-block;
+}
+
+.header-nav{
+    display: inline-block;
+    float: right;
+    height: 104px;
+}
+
+.header-nav__items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header-nav__items-list{
+    display: inline-block;
+    height: 100%;
+    padding: 39px 15px;
+}
+
+.header-nav__list-link{
+    height: 100%;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #444;
+    cursor: pointer;
+}
+
+.header-nav__list-link:hover{
+    color: #f0a540;
+}
+
+.header-nav__items-list.btn{
+    background: #f0a540;
+}
+
+.header-nav__list-link.btn{
+    color: #ffffff;
+}
+
+
+/*----------- BANNER STYLE----------*/
+
+.section-banner{
+    background-image: url("../Images/hero-image.jpg");
+    height: 100vh;
+    background-size: cover;
+}
