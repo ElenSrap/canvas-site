@@ -5,7 +5,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-family: Quicksand-Bold;
+    font-family: 'Quicksand-Bold', sans-serif;
 }
 
 .container {
@@ -176,4 +176,92 @@ img{
     opacity: 0.4;
     font-weight: 400;
     line-height: 30px;
+}
+
+
+/*----------- BANNER STYLE----------*/
+
+.section-services{
+    background: #eef2f5;
+    overflow: hidden;
+}
+
+.section-services__inner {
+    padding: 66px 0;
+    overflow: hidden;
+}
+
+.section-services__info{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-services__info-title{
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    margin: 0;
+}
+
+.section-services__info-text{
+    font-family: 'Quicksand-light', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #777;
+    line-height: 30px;
+    margin: 10px 0 0 0;
+}
+
+.section-services__items{
+    margin: -24px 0 0 -24px;
+    overflow: hidden;
+}
+
+.section-services__items-item{
+    padding: 24px 0 0 24px;
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.section-services__items-item__content{
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+
+.section-services__item-content__image-link{
+    display: inline-block;
+}
+
+.section-services__item-content__info{
+    padding: 24px;
+}
+
+.section-services__item-info-title{
+    font-family: 'Quicksand-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+.section-services__item-info-text{
+    color: #f0a540;
+    font-family: 'Quicksand-Light', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+.section-services__item-info-link{
+    color: #f0a540;
+    letter-spacing: 1px;
+    font-family: 'Quicksand-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
 }
