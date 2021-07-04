@@ -299,46 +299,46 @@ img {
     margin: 10px 0 0 0;
 }
 
-.section-contacts__items{
+.section-contacts__items {
     margin: -24px 0 0 -24px;
     overflow: hidden;
 }
 
-.section-contacts__items-item{
+.section-contacts__items-item {
     padding: 24px 0 0 24px;
     display: inline-block;
     width: 33.333%;
     float: left;
 }
 
-.section-contacts__items-item__content{
+.section-contacts__items-item__content {
     position: relative;
 }
 
-.section-contacts__items-item__content.left{
+.section-contacts__items-item__content.left {
     background-image: url('../Images/1 (4).jpg');
     background-size: cover;
     border-radius: 8px;
 }
 
-.section-contacts__items-item__content.center{
+.section-contacts__items-item__content.center {
     background-image: url('../Images/14.jpg');
     background-size: cover;
     border-radius: 8px;
 }
 
-.section-contacts__items-item__content.right{
+.section-contacts__items-item__content.right {
     background-image: url('../Images/3 (3).jpg');
     background-size: cover;
     border-radius: 8px;
 }
 
-.section-contacts__items-item__content-info{
+.section-contacts__items-item__content-info {
     text-align: center;
     padding: 60px 0;
 }
 
-.section-contacts__items-item__content-info-title{
+.section-contacts__items-item__content-info-title {
     margin: 0;
     color: #ffffff;
     cursor: pointer;
@@ -348,7 +348,7 @@ img {
     letter-spacing: 1px;
 }
 
-.section-contacts__items-item__content-info-text{
+.section-contacts__items-item__content-info-text {
     margin: 111px 0 0 0;
     font-family: 'Quicksand-Medium', sans-serif;
     font-size: 17px;
@@ -363,4 +363,159 @@ img {
     background: rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     opacity: 0.4;
+}
+
+
+/*----------- FOOTER STYLE----------*/
+
+.footer-main {
+    background: #282828;
+}
+
+.footer-main__inner {
+    padding: 80px 0;
+    width: 100%;
+}
+
+.footer-main__items {
+    margin: -12px 0 0 -12px;
+    overflow: hidden;
+}
+
+.footer-main__items__item {
+    padding: 12px 0 0 12px;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+
+.footer__item-content-info {
+    padding-bottom: 30px;
+}
+
+.footer__item-content-info.contacts {
+    padding-bottom: 0;
+}
+
+.footer__item-content-p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer__item-content-info.contacts b{
+    border-bottom: 1px dashed;
+}
+
+.footer-main-item-content__nav-title {
+    margin: 0 0 25px 0;
+    color: #EEE;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.footer-main-item-content__nav{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-main-item-content__nav-list{
+    padding: 4px 0;
+    line-height: 22px;
+}
+
+.footer-main-item-content__nav-list:before{
+    content: "\f054";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.footer-main-item-content__nav-list-link{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-main__items__item-content.ticket{
+    padding: 30px;
+    border: 2px dashed #AAA;
+    text-align: center;
+}
+
+.ticket-title{
+    color: #EEE;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.ticket-title span {
+    color: #f0a540;
+    font-size: 40px;
+}
+
+.ticket-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ticket-text span {
+    color: #999;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.footer-main__copyright{
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-main__copyright-content{
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-main__copyright-content-left{
+    width: 50%;
+    display: inline-block;
+}
+
+.footer-main__copyright-content-left-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+}
+
+.footer-main__copyright-content-right{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.footer-main__copyright__icon{
+    color: #777777;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-main__copyright__icon.is-linkedin{
+    margin-right: 0;
 }
